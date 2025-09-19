@@ -38,7 +38,7 @@ const HowItWorksSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-primary-glow via-primary to-accent bg-clip-text text-transparent animate-pulse-glow">
+            <span className="bg-gradient-to-r from-primary-glow via-primary to-accent bg-clip-text text-transparent">
               How ShareCare Works
             </span>
           </h2>
@@ -52,7 +52,7 @@ const HowItWorksSection = () => {
             <div key={index} className="text-center group animate-fade-in-up" style={{animationDelay: `${index * 0.15}s`}}>
               <div className="relative mb-8">
                 {/* Enhanced Step Circle */}
-                <div className="relative w-20 h-20 bg-gradient-to-br from-primary to-primary-glow rounded-full flex items-center justify-center mx-auto text-white text-2xl font-bold shadow-glow-primary group-hover:scale-110 group-hover:shadow-glow-accent transition-all duration-500 animate-pulse-glow border-2 border-white/20">
+                <div className="relative w-20 h-20 bg-gradient-to-br from-primary to-primary-glow rounded-full flex items-center justify-center mx-auto text-white text-2xl font-bold shadow-card group-hover:scale-105 transition-all duration-300 border-2 border-white/20">
                   {step.number}
                   {/* Icon overlay */}
                   <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent rounded-full flex items-center justify-center text-sm shadow-lg group-hover:scale-125 transition-transform duration-300">
@@ -67,7 +67,7 @@ const HowItWorksSection = () => {
               </div>
               
               {/* Enhanced Card Content */}
-              <div className="bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-white/10 shadow-card group-hover:shadow-glow-primary/20 transition-all duration-300 group-hover:border-primary/30 group-hover:bg-card/70">
+              <div className="bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-white/10 shadow-card group-hover:shadow-card transition-all duration-300 group-hover:border-primary/30 group-hover:bg-card/70">
                 <h3 className="text-xl font-bold mb-4 text-foreground group-hover:text-primary transition-colors duration-300 bg-gradient-to-r from-foreground to-primary/80 bg-clip-text group-hover:text-transparent">
                   {step.title}
                 </h3>
