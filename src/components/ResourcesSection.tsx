@@ -9,7 +9,7 @@ const ResourcesSection = () => {
       description: "Warm jackets, sweaters, and boots for kids aged 5-12. All items are clean and in good condition.",
       category: "Clothing",
       location: "Downtown Community Center",
-      provider: "Sarah Johnson",
+      provider: "Priya Sharma",
       timeAgo: "2 hours ago"
     },
     {
@@ -17,7 +17,7 @@ const ResourcesSection = () => {
       description: "Notebooks, pencils, erasers, and textbooks for elementary students. Perfect for the new school year.",
       category: "Education",
       location: "East Side Library",
-      provider: "Education First NGO",
+      provider: "Shiksha Pratham NGO",
       timeAgo: "5 hours ago",
       urgent: true
     },
@@ -26,7 +26,7 @@ const ResourcesSection = () => {
       description: "Weekly food packages including vegetables, fruits, and ready-to-eat meals for families in need.",
       category: "Food",
       location: "Central Food Bank",
-      provider: "Food Share Community",
+      provider: "Annadaan Community",
       timeAgo: "1 day ago"
     },
     {
@@ -34,7 +34,7 @@ const ResourcesSection = () => {
       description: "Wheelchairs, walking aids, and basic medical supplies available for elderly community members.",
       category: "Healthcare",
       location: "Health Care Center",
-      provider: "Dr. Michael Chen",
+      provider: "Dr. Rajesh Gupta",
       timeAgo: "2 days ago"
     }
   ];

@@ -68,15 +68,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors group">
                 <Mail className="h-4 w-4 text-primary group-hover:text-primary-glow transition-colors" />
-                <span>hello@sharecare.org</span>
+                <span>contact@sharecare.in</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground hover:text-accent transition-colors group">
                 <Phone className="h-4 w-4 text-accent group-hover:text-primary-glow transition-colors" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 98765 43210</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground hover:text-primary-glow transition-colors group">
                 <MapPin className="h-4 w-4 text-primary-glow group-hover:text-primary transition-colors" />
-                <span>New York, NY</span>
+                <span>Mumbai, Maharashtra</span>
               </div>
             </div>
           </div>

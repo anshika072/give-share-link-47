@@ -4,40 +4,40 @@ import NGOCard from "./NGOCard";
 const NGOsSection = () => {
   const ngos = [
     {
-      name: "Hope Foundation",
+      name: "Asha Foundation",
       description: "Dedicated to providing education and healthcare to underprivileged children in urban communities.",
       category: "Education & Health",
-      location: "New York, NY",
+      location: "Mumbai, Maharashtra",
       members: "2,500+ members",
       rating: "4.9 rating • 15 active projects",
       verified: true,
       icon: "🏫"
     },
     {
-      name: "Green Earth Initiative", 
-      description: "Environmental conservation and sustainable living programs for communities worldwide.",
+      name: "Prakriti Sanrakshan Samiti", 
+      description: "Environmental conservation and sustainable living programs for communities across India.",
       category: "Environment",
-      location: "San Francisco, CA",
+      location: "Bangalore, Karnataka",
       members: "1,800+ members",
       rating: "4.8 rating • 22 active projects",
       verified: true,
       icon: "🌱"
     },
     {
-      name: "Food for All",
+      name: "Annam Foundation",
       description: "Fighting hunger by distributing meals and groceries to families facing food insecurity.",
       category: "Food Security", 
-      location: "Chicago, IL",
+      location: "Delhi, NCR",
       members: "3,200+ members",
       rating: "4.9 rating • 8 active projects",
       verified: true,
       icon: "🍽️"
     },
     {
-      name: "Elder Care Network",
+      name: "Vriddhashram Seva Samiti",
       description: "Supporting elderly community members with healthcare, companionship, and daily assistance.",
       category: "Elder Care",
-      location: "Boston, MA", 
+      location: "Pune, Maharashtra", 
       members: "900+ members",
       rating: "4.7 rating • 12 active projects",
       verified: true,
